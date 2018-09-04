@@ -14,19 +14,21 @@ import { PortfolioComponent } from './pages/portfolio/portfolio.component';
 import { ServicesComponent } from './pages/services/services.component';
 import { PromoComponent } from './pages/promo/promo.component';
 import { StartComponent } from './pages/start/start.component';
-import { TestimonialsComponent } from './pages/testimonials/testimonials.component';
 import { AboutUsComponent } from './components/about-us/about-us.component';
+import { OurServicesComponent } from './components/our-services/our-services.component';
+import { OurPortfolioComponent } from './components/our-portfolio/our-portfolio.component';
+import { ContactUsComponent } from './components/contact-us/contact-us.component';
+import { ResturantPromoComponent } from './components/resturant-promo/resturant-promo.component';
 
 
 const appRoutes: Routes = [
-  { path: 'HomeComponent', component: HomeComponent },
-  { path: 'AboutComponent', component: AboutComponent },
-  { path: 'BlogComponent', component: BlogComponent },
-  { path: 'PortfolioComponent', component: PortfolioComponent },
-  { path: 'PromoComponent', component: PromoComponent },
-  { path: 'ServicesComponent', component: ServicesComponent },
-  { path: 'StartComponent', component: StartComponent },
-  { path: 'TestimonialsComponent', component: TestimonialsComponent },
+  { path: 'home', component: HomeComponent },
+  { path: 'about', component: AboutComponent },
+  { path: 'blog', component: BlogComponent },
+  { path: 'portfolio', component: PortfolioComponent },
+  { path: 'promo', component: PromoComponent },
+  { path: 'services', component: ServicesComponent },
+  { path: 'start', component: StartComponent },
   { path: '**', component: HomeComponent }
 ];
 
@@ -44,8 +46,11 @@ const appRoutes: Routes = [
     ServicesComponent,
     PromoComponent,
     StartComponent,
-    TestimonialsComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    OurServicesComponent,
+    OurPortfolioComponent,
+    ContactUsComponent,
+    ResturantPromoComponent
   ],
   imports: [
     BrowserModule,

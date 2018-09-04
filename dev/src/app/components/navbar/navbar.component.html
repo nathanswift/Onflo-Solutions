@@ -12,20 +12,18 @@
     <!-- menu -->
     <ul data-menu="main" class="menu__level">
       <!-- add to active page: menu__link--current -->
-      <li class="menu__item"><a class="menu__link" href="../home">Home</a></li>
-      <li class="menu__item"><a class="menu__link" href="../about">About</a></li>
-      <li class="menu__item"><a class="menu__link" href="../../dashboard">Dashboard</a></li>
-      <li class="menu__item"><a class="menu__link" href="../services">Services</a></li>
+      <li class="menu__item"><a class="menu__link" routerLink="/home">Home</a></li>
+      <li class="menu__item"><a class="menu__link" routerLink="/portfolio">Portfolio</a></li>
+      <li class="menu__item"><a class="menu__link" routerLink="/services">Solutions</a></li>
       <li class="menu__item"><a class="menu__link" data-submenu="submenu-1">Promotions</a></li>
-      <li class="menu__item"><a class="menu__link" href="../portfolio">Portfolio</a></li>
-      <!-- <li class="menu__item"><a class="menu__link" href="../blog">Blog</a></li> -->
-      <!-- <li class="menu__item"><a class="menu__link" href="../testimonials">Testimonials</a></li> -->
-      <li class="menu__item"><a class="menu__link" href="../contact">Contact</a></li>
+      <!-- <li class="menu__item"><a class="menu__link" routerLink="/blog">Blog</a></li> -->
+      <!-- <li class="menu__item"><a class="menu__link" routerLink="/testimonials">Testimonials</a></li> -->
+      <li class="menu__item"><a class="menu__link" routerLink="/contact">Contact</a></li>
     </ul>
 
     <!-- submenu -->
     <ul data-menu="submenu-1" class="menu__level">
-      <li class="menu__item"><a class="menu__link" href="../promo/#/restaurant">Restaurant</a></li>
+      <li class="menu__item"><a class="menu__link" routerLink="/promo/#/restaurant">Restaurant</a></li>
     </ul>
 
   </div>
@@ -33,7 +31,7 @@
 
 <header>
   <div class="header-upper">
-    <a class="logo" href="../home">
+    <a class="logo" routerLink="/home">
       <img src="assets/images/onflo-white-logo.png" id="navigation-logo" alt="Onflo Logo" />
     </a>
   </div>
